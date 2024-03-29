@@ -4,14 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Resume from './Resume';
-import New from './New';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Resume /> */}
-    <New  name="Bhalodiya Milan Dineshbhai"
+    <Resume  name="Bhalodiya Milan Dineshbhai"
           phone="9023697542"
           email="milanbhalodiya410@gmail.com"
           link="Milan Bhalodiya"/>
